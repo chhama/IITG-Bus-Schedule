@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IIT Guwahati Bus Timing</string>
+    <string name="hello_world">Created by Chhama Chenkual</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_city_to_campus_wd">City to Campus, Weekdays</string>
+    <string name="title_activity_campus_to_city_wd">Campus to City, Weekdays</string>
+    <string name="title_activity_city_to_campus_ho">City to Campus, Holidays</string>
+    <string name="title_activity_campus_to_city_ho">Campus to City, Holidays</string>
+
+</resources>

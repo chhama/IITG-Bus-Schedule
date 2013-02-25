@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:background="@drawable/awall"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/hello_world" />
+
+   <Button
+        android:id="@+id/btCiCaWe"
+        android:layout_width="250px"
+        android:layout_height="55px"
+        
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="City to Campus, Weekdays"
+        android:textSize="18px" />
+     <Button
+        android:id="@+id/btCiCaHo"
+        android:layout_width="250px"
+        android:layout_height="65px"
+        android:layout_below="@+id/btCiCaWe"
+        android:layout_centerHorizontal="true"
+        android:text="City to Campus, Weekends and Holidays"
+        android:textSize="18px" />
+
+     <Button
+         android:id="@+id/btCaCiWe"
+         android:layout_width="250px"
+         android:layout_height="55px"
+         android:layout_above="@+id/btCaCiHo"
+         android:layout_alignLeft="@+id/btCiCaWe"
+         android:text="Campus to City, Weekdays"
+         android:textSize="18px" />
+
+     <Button
+         android:id="@+id/btCaCiHo"
+         android:layout_width="250px"
+         android:layout_height="65px"
+         android:layout_above="@+id/textView1"
+         android:layout_alignLeft="@+id/btCiCaWe"
+         android:text="Campus to City, Weekends and Holidays"
+         android:textSize="18px" />
+
+</RelativeLayout>
